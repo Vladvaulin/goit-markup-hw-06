@@ -852,6 +852,7 @@ img {
   display: block;
   cursor: pointer;
   margin-right: 7px;
+  
 }
 
 .modal-form-checkbox:checked + .modal-form-policy::before {
@@ -862,7 +863,8 @@ img {
   height: 15px;
   outline: transparent;
   border: transparent;
-  background-color: var(--hover-color);
+  
+  
 }
 
 .modal-form-checkbox:focus + .modal-form-policy::before {
@@ -897,14 +899,34 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 cursor: pointer;
 border: none;
-text-align: center;
-letter-spacing: 0.06em;
 position: relative;
+letter-spacing: 0.06em;
 color: #FFFFFF;
   
 }
 
-
-  
+.footer-form-button span{
+ 
+ display: flex;
+ left: 22px;
+  position: relative;
   
 }
+
+.footer-form-span{
+  position: relative;
+  height: 100%;
+}
+
+.footer-form-svg{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+ display: block;
+ top: 0;
+ right: 28px;
+
+}
+  
+  
+
