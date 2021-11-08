@@ -856,7 +856,7 @@ img {
 }
 
 .modal-form-checkbox:checked + .modal-form-policy::before {
-  background-image: url(/images/iconcheck.svg);
+  background-image: url(../images/iconcheck.svg);
   display: block;
   outline: none;
   width: 16px;
